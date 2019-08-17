@@ -27,6 +27,6 @@ jobs:
         git config --global user.name 'olumide ojo'
         git add -f public
         git commit -m "Deploying to master"
-        git subtree push --prefix public/ origin master --force
+        git subtree push --prefix public/ origin master
         
       
