@@ -25,9 +25,8 @@ jobs:
         echo 'olumide.co' > public/CNAME
         git config --global user.email 'olumytee.ojo@gmail.com'
         git config --global user.name 'olumide ojo'
-        cd public
-        ls
-        cd ..
-        git subtree push --prefix public/ origin master
+        git add -f public
+        git commit -m "Deploying to master"
+        git subtree push --prefix public/ origin master --force
         
       
