@@ -22,8 +22,8 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       env:
-          BUILD_SCRIPT: npm install && npm run build
-          BRANCH: master
-          BASE_BRANCH: develop
-          FOLDER: public
-          CNAME: olumide.co
+        BUILD_SCRIPT: npm install && npm run build
+        BRANCH: master
+        BASE_BRANCH: develop
+        FOLDER: public
+        CNAME: olumide.co
