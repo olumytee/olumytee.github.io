@@ -28,6 +28,6 @@ jobs:
         git add -f public
         git commit -m 'Deploying to master'
         git remote add deploy 'https://${{ secrets.ACCESS_TOKEN }}@github.com/olumytee/olumytee.github.io.git'
-        git subtree push --prefix public/ deploy master
+        git subtree push --force --prefix public/ deploy master
         
       
