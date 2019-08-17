@@ -21,6 +21,11 @@ jobs:
       run:
         npm install
         npm run build
-        git add .
+        npm run test
+        echo 'olumide.co' > public/CNAME
+        git add -f public
+        git commit -m 'Deploying to master'
+        cd public
+        ls
         
       
