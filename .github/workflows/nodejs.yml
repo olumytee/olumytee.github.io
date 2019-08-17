@@ -27,6 +27,6 @@ jobs:
         git config --global user.name 'olumide ojo'
         git add -f public
         git commit -m "Deploying to master"
-        git subtree push 'https://${{ secrets.ACCESS_TOKEN }}@github.com/${{ GITHUB_REPOSITORY }}.git' --prefix public/ origin master
+        git subtree push 'https://${{ secrets.ACCESS_TOKEN }}@github.com/olumytee/olumytee.github.io.git' --prefix public/ origin master
         
       
