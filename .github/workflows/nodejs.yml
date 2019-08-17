@@ -22,7 +22,6 @@ jobs:
       env:
           BUILD_SCRIPT: npm install && npm run build
           BRANCH: master
-          secrets: ["ACCESS_TOKEN"]
           BASE_BRANCH: develop
           FOLDER: public
           CNAME: olumide.co
