@@ -15,11 +15,7 @@ body {
     font-family: "system";
     color: white;
     font-size: 1rem;
-    line-height: 1.5rem;
-
-    @media all and (max-width: 529px) {
-        font-size: 0.8rem;
-    }
+    line-height: 1.3rem;
 }
 
 a {
@@ -30,6 +26,10 @@ a {
     &:hover {
         color: #3282b8;
     }
+}
+
+p {
+    margin-bottom: 0.7rem;
 }
 
 * {

@@ -3,6 +3,7 @@ module.exports = {
     title: `Olumide`,
     description: `Awo láàrin àwọn ọ̀gbẹ̀rì`,
     author: `@lohdlippi`,
+    imageUrl: `https://res.cloudinary.com/pitech/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1578168111/thumbs/00100sPORTRAIT_00100_BURST20191228181227582_COVER.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
