@@ -14,15 +14,17 @@ $background-color: #1b262c;
 body {
     font-family: "system";
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.5rem;
+
+    @media all and (max-width: 529px) {
+        font-size: 0.8rem;
+    }
 }
 
 a {
     color: #bbe1fa;
-    font-size: 16px;
     letter-spacing: 1px;
-    line-height: 1.5rem;
     text-decoration: none;
 
     &:hover {
@@ -43,6 +45,10 @@ a {
     min-height: 100vh;
     padding: 200px 40px;
     margin: auto;
+
+    @media all and (max-width: 529px) {
+        padding: 200px 15px;
+    }
 }
 
 
