@@ -1,0 +1,52 @@
+@import './reset.scss';
+
+/* Define the "system" font family */
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+$background-color: #1b262c;
+
+/* Now, let's apply it on an element */
+body {
+    font-family: "system";
+    color: white;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+a {
+    color: #bbe1fa;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    text-decoration: none;
+
+    &:hover {
+        color: #3282b8;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.app-wrapper {
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 200px 40px;
+    margin: auto;
+}
+
+
+.app-main {
+    flex-grow: 1;
+    // box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
